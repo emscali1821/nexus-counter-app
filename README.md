@@ -67,13 +67,7 @@ cd nexus-counter-app
 npm install
 ```
 
-2. Deploy the smart contract:
-```bash
-cd contracts
-npx hardhat run scripts/deploy.ts --network nexus
-```
-
-3. Configure the frontend:
+2. Configure the frontend:
 Configure the frontend to use the deployed contract address on Nexus.
 
 Modify the `hardhat.config.ts` file:
@@ -86,6 +80,16 @@ Modify the `frontend/src/app/page.tsx` file to use the deployed contract address
 const CONTRACT_ADDRESS = 'your_deployed_contract_address' // You'll need to update this after deploying to Nexus
 ```
 
+
+
+3. Deploy the smart contract:
+```bash
+cd contracts
+npx hardhat run scripts/deploy.ts --network nexus
+```
+
+
+
 1. Start the NextJS development server:
 
 ```bash
@@ -94,6 +98,10 @@ npm run dev
 ```
 
 ## Using the dApp
+
+
+
+
 
 1. Connect Your Wallet:
    - Ensure MetaMask is installed
