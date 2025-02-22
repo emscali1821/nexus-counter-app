@@ -79,7 +79,7 @@ const CONTRACT_ADDRESS = 'your_deployed_contract_address' // You'll need to upda
 1. Start the NextJS development server:
 
 ```bash
-cd frontend
+cd /workspaces/nexus-counter-app/frontend 
 npm run dev
 ```
 
