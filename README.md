@@ -56,8 +56,8 @@ contract Counter {
 
 1. Clone and install dependencies:
 ```bash
-git clone <this-repo-url>
-cd your-repo
+git clone https://github.com/Gmhax/nexus-counter-app
+cd nexus-counter-app
 npm install
 ```
 
