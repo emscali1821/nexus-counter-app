@@ -100,7 +100,7 @@ npx hardhat run scripts/deploy.ts --network nexus
 1. Start the NextJS development server:
 
 ```bash
-cd /workspaces/nexus-counter-app/frontend 
+cd /workspaces/codespaces-blank/nexus-counter-app/frontend
 npm run dev
 ```
 
