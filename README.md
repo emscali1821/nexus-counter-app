@@ -100,6 +100,7 @@ npm run dev
 ## Using the dApp
 
 
+![image](https://github.com/user-attachments/assets/6c6e9b76-37fe-462a-8031-3eac3fd6545a)
 
 
 
