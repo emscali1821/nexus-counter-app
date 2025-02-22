@@ -32,11 +32,12 @@ The Counter smart contract (`contracts/src/Counter.sol`) implements:
 
 The current Counter contract is deployed to the Nexus testnet at address `0x6DDc7dd77CbeeA3445b70CB04E0244BBa245e011`. See the code below for the contract's source code.
 
-First get ur own contract:
+First get ur own smart contract:
 - Go to: https://remix.ethereum.org/
 - Create new file name it (`contracts/src/Counter.sol`)
 - paste solidity code below
 - Connect your MetaMask, deploy your smart contract, and save it from the transaction below.
+
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -58,6 +59,11 @@ contract Counter {
 }
 ```
 
+
+![image](https://github.com/user-attachments/assets/a53397a8-aaa8-4d6e-b3ee-04396519cec9)
+
+
+
 ## Installation & Setup
 
 1. Clone and install dependencies:
@@ -67,8 +73,8 @@ cd nexus-counter-app
 npm install
 ```
 
-2. Configure the frontend:
-Configure the frontend to use the deployed contract address on Nexus.
+2. locate the hardhat/frontend:
+Configure the hardhat/frontend to use the deployed contract address on Nexus.
 
 Modify the `hardhat.config.ts` file:
 ```typescript
