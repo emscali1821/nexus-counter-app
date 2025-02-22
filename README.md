@@ -76,6 +76,10 @@ npx hardhat run scripts/deploy.ts --network nexus
 3. Configure the frontend:
 Configure the frontend to use the deployed contract address on Nexus.
 
+Modify the `hardhat.config.ts` file:
+```typescript
+const PRIVATE_KEY = process.env.PRIVATE_KEY || "ur private key" ;
+```
 Modify the `frontend/src/app/page.tsx` file to use the deployed contract address:
 
 ```typescript
