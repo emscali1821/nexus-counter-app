@@ -75,9 +75,10 @@ npm install
 ```
 
 2. locate the hardhat/frontend:
-Configure the hardhat/frontend to use the deployed contract address on Nexus.
 
-Modify the `hardhat.config.ts` file:
+Configure the hardhat/frontend.
+
+Modify the `contracts/hardhat.config.ts` file:
 ```typescript
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "ur private key" ;
 ```
